@@ -5,9 +5,11 @@
 /*                  Rahisul Haque  <rahisul@icloud.com>                                      */
 /*                                                                                           */
 /*********************************************************************************************/
-
-$('#my-elem').click(function(e) {
-    //the element has been clicked... do stuff here
+var result = document.getElementById('result');
+var i  = 0; 
+//var pussy = document.getElementById("pussy");
+$('#pussy').click(function() {
+   alert("you have clicked ! ;)")
   });
 
 
